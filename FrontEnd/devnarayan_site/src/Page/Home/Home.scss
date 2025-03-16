@@ -1,0 +1,43 @@
+.home {
+    width: 100%;
+    // height: auto;
+    position: relative;
+
+    .section {
+        font-weight: 600;
+        background-color: var(--primary);
+        padding-bottom: 70px !important;
+    }
+
+    .btn-secondary {
+        background-color: #62C3E7;
+        border-color: #62C3E7;
+        border-radius: 50%;
+    }
+
+
+
+    .back-to-top::before {
+        position: fixed;
+        display: none;
+        right: 30px;
+        bottom: 30px;
+        z-index: 11;
+    }
+
+    .back-to-top {
+        position: fixed;
+        display: inline;
+        right: 30px;
+        bottom: 30px;
+        z-index: 11;
+    }
+}
+
+@media (max-width: 992px) {
+    .home {
+        .section {
+            padding-bottom: 20px !important;
+        }
+    }
+}

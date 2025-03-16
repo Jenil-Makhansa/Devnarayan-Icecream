@@ -1,0 +1,40 @@
+.chefdetails {
+
+    .btn-outline-secondary {
+        color: #62c3e7;
+        border-color: #62c3e7;
+    }
+
+    .mr-2,
+    .mx-2 {
+        margin-right: 0.5rem !important;
+    }
+
+    .btn {
+        font-weight: 500;
+        padding: 10px 25px;
+        border-radius: 100px;
+        display: inline-block;
+        vertical-align: middle;
+        user-select: none;
+        background-color: transparent;
+        font-size: 1rem;
+        line-height: 1.5;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+            border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+
+    .btn-social {
+        width: 45px;
+        height: 45px;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+        border-radius: 50% !important;
+
+        &:hover {
+            background-color: #62c3e7;
+            color: black !important;
+        }
+    }
+}

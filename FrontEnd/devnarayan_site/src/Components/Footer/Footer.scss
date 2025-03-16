@@ -1,0 +1,112 @@
+.footer {
+    a {
+        color: #F195B2;
+        text-decoration: none;
+        background-color: transparent;
+    }
+
+    .display-4 {
+        font-size: 3.5rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+
+    @media (max-width: 1200px) {
+        .display-4 {
+            font-size: calc(1.475rem + 2.7vw);
+        }
+    }
+
+    .text-primary {
+        color: #F195B2 !important;
+    }
+
+    a.text-primary:hover,
+    a.text-primary:focus {
+        color: #e85181 !important;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    h1,
+    h2,
+    .font-weight-bold {
+        font-weight: 700 !important;
+    }
+
+    .text-secondary {
+        color: #62C3E7 !important;
+    }
+
+
+    .btn-outline-secondary {
+        color: #62C3E7;
+        border-color: #62C3E7;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        margin-right: 1rem;
+        font-size: 1.25rem;
+        line-height: inherit;
+        white-space: nowrap;
+    }
+
+    .mr-2,
+    .mx-2 {
+        margin-right: 0.5rem !important;
+    }
+
+    .btn {
+        font-weight: 500;
+        padding: 10px 25px;
+        border-radius: 100px;
+        display: inline-block;
+        vertical-align: middle;
+        user-select: none;
+        background-color: transparent;
+        font-size: 1rem;
+        line-height: 1.5;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+            border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+
+    .btn-social {
+        width: 45px;
+        height: 45px;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+        border-radius: 50% !important;
+
+        &:hover {
+            background-color: #62c3e7;
+            color: black !important;
+        }
+    }
+
+    @media (min-width: 576px) {
+        .text-sm-left {
+            text-align: left !important;
+        }
+
+        .text-sm-right {
+            text-align: right !important;
+        }
+
+        .text-sm-center {
+            text-align: center !important;
+        }
+    }
+
+    .border-right {
+        border-right: 1px solid #dee2e6 !important;
+    }
+}

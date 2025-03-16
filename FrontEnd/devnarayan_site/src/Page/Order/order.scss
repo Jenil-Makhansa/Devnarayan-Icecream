@@ -1,0 +1,220 @@
+.order {
+    padding: 80px;
+
+    h1 {
+        margin-bottom: 50px;
+    }
+
+    h5 {
+        color: rgb(99, 99, 99);
+    }
+
+    .details {
+        display: flex;
+        justify-content: space-between;
+        .productList {
+            max-height: 820px;
+            overflow-y: scroll;
+            padding: 38px;
+            background-color: #f3f6ff;
+            border-radius: 28px;
+            width: 70%;
+            height: inherit;
+
+            hr {
+                display: flex;
+                width: 70%;
+                justify-self: right;
+            }
+
+            .ord-product {
+                display: flex;
+                align-items: top;
+                justify-content: center;
+                flex-direction: row;
+
+                img {
+                    border-radius: 18px;
+                    height: 130px;
+                    width: 130px;
+                }
+
+                .product-det {
+                    width: 100%;
+                    display: flex;
+                    align-items: top;
+                    justify-content: space-between;
+                    padding: 20px;
+                    gap: 20px;
+
+                    .price {
+                        width: 60%;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                }
+
+            }
+
+            hr {
+                margin: 26px auto;
+            }
+        }
+
+        .usedetails {
+            width: 27%;
+            background-color: #f3f6ff;
+            border-radius: 28px;
+            padding: 36px;
+
+            h5 {
+                margin-bottom: 14px;
+            }
+
+            select {
+                color: black;
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .order {
+        padding: 60px;
+
+        h1 {
+            margin-bottom: 40px;
+        }
+
+        .details {
+            flex-direction: column;
+            gap: 40px;
+
+            .productList {
+                width: 100%;
+                padding: 30px;
+
+                .ord-product {
+                    .product-det {
+                        .price {
+                            width: 50%;
+                            flex-direction: column;
+                            justify-content: space-around;
+                            align-items: flex-end;
+
+                            h5 {
+                                font-size: 16px;
+                                width: 500;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .usedetails {
+                width: 80%;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .order {
+        padding: 30px;
+
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        .details {
+            gap: 30px;
+
+            .productList {
+                width: 100%;
+                padding: 24px;
+
+                .ord-product {
+                    .product-det {
+                        .ord-product-details {
+                            h4 {
+                                font-size: 18px;
+                                width: 700;
+                            }
+
+                            p {
+                                font-size: 12px;
+                            }
+
+                        }
+
+                        .price {
+                            h5 {
+                                font-size: 14px;
+                                width: 500;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .usedetails {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media(max-width:425px) {
+    .order {
+        padding: 20px;
+
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        .details {
+            gap: 30px;
+
+            .productList {
+                padding: 20px;
+                width: 100%;
+
+                hr {
+                    margin: 10px auto 20px;
+                }
+
+                .ord-product {
+                    flex-direction: column;
+
+                    .product-det {
+                        padding: 20px 0;
+
+                        .ord-product-details {
+                            h4 {
+                                font-size: 18px;
+                                width: 700;
+                            }
+
+                            p {
+                                font-size: 12px;
+                            }
+
+                        }
+
+                        .price {
+                            h5 {
+                                font-size: 14px;
+                                width: 500;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .usedetails {
+                width: 100%;
+            }
+        }
+    }
+}

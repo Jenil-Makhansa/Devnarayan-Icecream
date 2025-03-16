@@ -1,0 +1,148 @@
+.carousel {
+    background-color: #f3f6ff !important;
+
+    .carousel-item {
+        position: relative;
+
+        .img {
+            filter: brightness(72%);
+        }
+
+        .carousel-caption {
+            position: absolute;
+            top: 15px;
+
+            .box {
+                max-width: 850px;
+
+                .hsmall {
+                    font-size: 26px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+
+                .hlarge {
+                    font-size: 68px;
+                    font-weight: 700;
+                }
+
+                .button {
+                    background-color: var(--primary);
+                    border-radius: 25px;
+                    font-weight: 700;
+                    font-size: 18px;
+                }
+            }
+        }
+
+
+    }
+
+    .btn-secondary {
+        background-color: #62C3E7;
+        border-color: #62C3E7;
+    }
+}
+
+
+.arrow {
+    box-sizing: border-box;
+    width: 3rem;
+    height: 3rem;
+}
+
+@media (max-width: 992px) {
+    .carousel {
+        .carousel-item {
+            .carousel-caption {
+                top: 15px;
+
+                .box {
+                    max-width: 650px;
+
+                    .hsmall {
+                        font-size: 20px;
+                    }
+
+                    .hlarge {
+                        font-size: 60px;
+                    }
+
+                    .button {
+                        font-size: 16px;
+                    }
+                }
+            }
+
+        }
+
+        .arrow {
+            width: 45px;
+            height: 45px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel {
+        .carousel-item {
+            .carousel-caption {
+                top: 15px;
+
+                .box {
+                    max-width: 650px;
+
+                    .hsmall {
+                        font-size: 18px;
+                    }
+
+                    .hlarge {
+                        font-size: 54px;
+                    }
+
+                    .button {
+                        font-size: 12px;
+                    }
+                }
+            }
+
+        }
+
+        .arrow {
+            width: 45px;
+            height: 45px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel {
+        .carousel-item {
+            .carousel-caption {
+                top: 15px;
+
+                .box {
+                    max-width: 600px;
+
+                    .hsmall {
+                        font-size: 14px;
+                    }
+
+                    .hlarge {
+                        font-size: 34px;
+                    }
+
+                    .button {
+                        font-size: 10px;
+                    }
+                }
+            }
+
+        }
+
+        .arrow {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}

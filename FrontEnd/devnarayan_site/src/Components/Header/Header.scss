@@ -1,0 +1,35 @@
+.page-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/Images/header.jpg"), no-repeat center center;
+    background-size: cover;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    background-color: #e9ecef;
+    border-radius: 0.3rem;
+}
+
+@media (min-width: 576px) {
+    .jumbotron {
+        padding: 4rem 2rem;
+    }
+}
+
+.jumbotron-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+}
+
+
+.display-3 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+@media (max-width: 1200px) {
+    .display-3 {
+        font-size: calc(1.575rem + 3.9vw);
+    }
+}

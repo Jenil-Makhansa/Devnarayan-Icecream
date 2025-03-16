@@ -1,0 +1,103 @@
+// addicecream.scss
+
+.addIcecream {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+    .allitem {
+        margin-bottom: 20px;
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .keyword-input-container {
+            display: flex;
+            gap: 10px;
+
+            input {
+                flex: 1; // Take up remaining space
+            }
+        }
+
+        button {
+            background: linear-gradient(#007bff, #0056b3);
+            color: #fff;
+            padding: 15px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.3s ease;
+            width: 100%;
+
+            &:hover {
+                background: linear-gradient(#0056b3, #004080);
+                transform: scale(1.05);
+            }
+        }
+
+        button.add-keyword {
+            background: linear-gradient(#28a745, #218838);
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.3s ease;
+
+            &:hover {
+                background: linear-gradient(#218838, #1e7e34);
+                transform: scale(1.05);
+            }
+        }
+
+        .image-preview {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 10px;
+
+            .image-upload {
+                margin-right: 10px;
+                margin-bottom: 10px;
+
+                img {
+                    max-width: 100px;
+                    margin-bottom: 5px;
+                }
+
+                button {
+                    background-color: #ff0000;
+                    color: #fff;
+                    padding: 5px;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 8px;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}

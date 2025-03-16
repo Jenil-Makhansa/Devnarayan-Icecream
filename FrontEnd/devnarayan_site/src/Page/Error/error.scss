@@ -1,0 +1,38 @@
+.page-not-found {
+    font-family: 'Poppins', sans-serif;
+    background: white;
+    text-align: center;
+    padding: 5em;
+    box-sizing: border-box;
+    margin-top: 7%;
+    padding: 0;
+
+    h1 {
+        font-size: clamp(10rem, 40vmin, 10em);
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: 2rem;
+        text-shadow: 10px 10px 5px grey;
+        color: steelblue;
+    }
+
+    h2 {
+        font-weight: 500;
+        color: grey;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-weight: 100;
+        color: grey;
+        margin: 1.5em;
+    }
+
+    @media (max-width: 480px) {
+        padding: 2em;
+
+        h1 {
+            font-size: clamp(4rem, 20vmin, 4em);
+            text-shadow: 4px 4px 2px grey;
+        }
+    }
+}
